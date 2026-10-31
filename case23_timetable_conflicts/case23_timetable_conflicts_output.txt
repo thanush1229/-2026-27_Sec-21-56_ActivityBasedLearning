@@ -1,0 +1,18 @@
+=== STEP 1: VALIDATE TIMES ===
+CS101 OK
+MA101 OK
+PH101 OK
+EN101 OK
+CH101 OK
+LAB1 OK
+
+=== STEP 2: REPORT ===
+Errors:
+  - BE101: start time must be before end time
+  - PY101: invalid time format (9am - 10:00)
+Clashes:
+  - CS101 & MA101: GROUP clash for group A on Mon
+  - CS101 & PH101: ROOM clash in R101 on Mon
+  - LAB1: room R105 unavailable on Thu
+
+RESULT: Timetable is INVALID ( 2 errors, 3 clashes )
