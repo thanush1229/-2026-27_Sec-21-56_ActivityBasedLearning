@@ -1,0 +1,26 @@
+=== VALIDATION ===
+Northgate -> negative demand -5
+Lakeview -> invalid urgency 4
+
+=== ALLOCATION (priority order) ===
+Riverside (urgency 3 )
+    Food packets  demand  250 given  250 unmet    0
+    Water cans    demand  150 given  150 unmet    0
+    Medical kits  demand   60 given   60 unmet    0
+Old Town (urgency 3 )
+    Food packets  demand  200 given  200 unmet    0
+    Water cans    demand  120 given  120 unmet    0
+    Medical kits  demand   50 given   40 unmet   10
+Hilltop (urgency 2 )
+    Food packets  demand  200 given   50 unmet  150
+    Water cans    demand  100 given   30 unmet   70
+    Medical kits  demand   30 given    0 unmet   30
+Seaport (urgency 1 )
+    Food packets  demand  100 given    0 unmet  100
+    Water cans    demand   80 given    0 unmet   80
+    Medical kits  demand   20 given    0 unmet   20
+
+=== SUMMARY ===
+Food packets  remaining stock:    0  total unmet demand: 250
+Water cans    remaining stock:    0  total unmet demand: 150
+Medical kits  remaining stock:    0  total unmet demand: 60
