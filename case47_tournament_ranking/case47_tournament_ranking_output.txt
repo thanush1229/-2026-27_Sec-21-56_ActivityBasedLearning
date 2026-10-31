@@ -1,0 +1,19 @@
+=== PROCESSING MATCHES ===
+OK       ('Lions', 2, 'Tigers', 1)
+OK       ('Eagles', 0, 'Sharks', 0)
+OK       ('Lions', 1, 'Eagles', 1)
+OK       ('Tigers', 3, 'Sharks', 0)
+OK       ('Lions', 0, 'Sharks', 1)
+OK       ('Tigers', 2, 'Eagles', 2)
+REJECTED ('Eagles', 1, 'Lions', -1) -> negative score
+REJECTED ('Lions', 2, 'Lions', 2) -> a team cannot play itself
+REJECTED ('Tigers', 1, 'Pumas', 0) -> unknown team
+
+=== FINAL STANDINGS ===
+Pos Team     P  W  D  L  GF GA  GD  Pts
+1   Tigers   3  1  1  1  6  4    2    4
+2   Lions    3  1  1  1  3  3    0    4
+3   Sharks   3  1  1  1  1  3   -2    4
+4   Eagles   3  0  3  0  3  3    0    3
+
+Champion: Tigers
