@@ -1,0 +1,22 @@
+No  Type Amount  Status    Balance  Remark
+1   D      2000   ACCEPTED     7000   
+2   W      1000   ACCEPTED     6000   
+3   W      1000   ACCEPTED     5000   
+4   W      1000   ACCEPTED     4000    [SUSPICIOUS REPEAT]
+5   W      3500   REJECTED     4000   per-transaction limit exceeded
+6   W      1250   REJECTED     4000   amount must be a multiple of 100
+7   T      1500   ACCEPTED     2500   
+8   T       800   REJECTED     2500   invalid account number
+9   W      1000   REJECTED     2500   daily limit exceeded
+10  D      -200   REJECTED     2500   amount must be positive
+11  X       100   REJECTED     2500   unknown transaction type
+12  W       500   ACCEPTED     2000   
+13  D     60000   REJECTED     2000   deposit limit exceeded
+
+=== SUMMARY ===
+Accepted transactions : 6
+Rejected transactions : 7
+Total deposited       : 2000
+Total withdrawn/transferred: 5000
+Final balance         : 2000
+Suspicious transaction numbers: [4]
