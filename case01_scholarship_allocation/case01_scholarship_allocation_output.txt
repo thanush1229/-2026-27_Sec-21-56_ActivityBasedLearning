@@ -1,0 +1,17 @@
+=== STEP 1: ELIGIBILITY CHECK ===
+S101 Asha    ELIGIBLE   aggregate = 80.0
+S102 Bala    ELIGIBLE   aggregate = 71.0
+S103 Chitra  ELIGIBLE   aggregate = 80.0
+S104 Dev     REJECTED   -> subject mark 35 < 40
+S105 Esha    REJECTED   -> attendance 70 < 75
+S106 Farid   REJECTED   -> income 450000 > 300000
+S107 Gita    REJECTED   -> aggregate 55.0 < 60
+S108 Hari    ELIGIBLE   aggregate = 71.0
+S109 Indu    REJECTED   -> aggregate 46.0 < 60; attendance 60 < 75; income 350000 > 300000
+
+=== STEP 2: RANK LIST (quota = 3 ) ===
+Rank  ID    Name     Aggr   Income  Att  Result
+1     S103 Chitra   80.0   180000  92   AWARDED
+2     S101 Asha     80.0   200000  92   AWARDED
+3     S102 Bala     71.0   150000  88   AWARDED
+4     S108 Hari     71.0   150000  88   WAITING LIST
