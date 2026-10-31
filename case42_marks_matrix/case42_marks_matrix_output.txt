@@ -1,0 +1,20 @@
+Invalid mark 101 for Farah in Maths -> row skipped
+
+=== STUDENT-WISE ===
+Name     Total  Average  Failed subjects
+Anil       303    75.75     0
+Bhavna     360     90.0     0
+Charan     195    48.75     1
+Divya      360     90.0     0
+Eswar      205    51.25     0
+
+=== SUBJECT-WISE ===
+Subject   Average  Highest  Lowest  Status
+Maths        73.4       92      45   OK
+Physics      64.2       88      38   LOW AVERAGE
+Python       76.0       95      48   OK
+English      71.0       85      55   OK
+
+Highest total: 360
+Top performer(s): Bhavna  Divya  
+Subjects with low average: ['Physics']
